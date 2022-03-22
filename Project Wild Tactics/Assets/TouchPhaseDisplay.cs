@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TouchPhaseDisplay : MonoBehaviour
 {
-    public Text phaseDisplayTest;
+    public Text phaseDisplayText;
     private Touch inputTouch;
     private float timeTouchEnded;
     private float displayTime = 0.5f;
